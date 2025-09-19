@@ -3,8 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-   --color-primary: #E30613; /* Your primary color */
-  --color-primary-dark: #B8050F; /* Darker shade */
+  --color-primary: #E30613;
+  /* Your primary color */
+  --color-primary-dark: #B8050F;
+  /* Darker shade */
 }
 
 @theme inline {
@@ -28,4 +30,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
