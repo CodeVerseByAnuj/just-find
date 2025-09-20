@@ -10,8 +10,6 @@ import ContactForm from './components/ContactForm'
 function HomePage() {
   return (
     <Layout>
-      <h2 className="text-3xl font-bold mb-4 text-center">Welcome to JustFind</h2>
-      <p className="text-gray-700 text-center mb-8">Your B2B marketplace and business directory.</p>
       <Heoro/>
       <Categories/>
       <FeaturedBusinesses/>

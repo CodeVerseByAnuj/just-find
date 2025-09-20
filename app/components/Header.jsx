@@ -17,7 +17,7 @@ function Header() {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <div className="flex items-center">
-                        <h1 className="text-2xl font-bold gradient-text animate-slide-in-left flex items-center gap-2">
+                        <h1 className="text-2xl font-bold text-[hsl(var(--primary))] animate-slide-in-left flex items-center gap-2">
                             <FaSearchLocation className="text-primary animate-float" />
                             JustFind
                         </h1>

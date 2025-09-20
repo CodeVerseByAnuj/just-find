@@ -13,7 +13,7 @@ const categoriesList = [
   { id: 9, name: 'Fitness', icon: 'fas fa-dumbbell', count: '2,800+', color: 'bg-yellow-500', description: 'Gyms & fitness centers' },
   { id: 10, name: 'Shopping', icon: 'fas fa-shopping-cart', count: '11,200+', color: 'bg-gray-500', description: 'Retail stores & shopping' },
   { id: 11, name: 'Entertainment', icon: 'fas fa-film', count: '4,700+', color: 'bg-red-400', description: 'Movies, events & entertainment' },
-  { id: 12, name: 'Professional Services', icon: 'fas fa-briefcase', count: '8,900+', color: 'bg-blue-400', description: 'Legal, accounting & consulting' }
+  { id: 12, name: 'Por Services', icon: 'fas fa-briefcase', count: '8,900+', color: 'bg-blue-400', description: 'Legal, accounting & consulting' }
 ]
 
 function Categories() {
@@ -106,7 +106,7 @@ function Categories() {
                 </div>
 
                 {/* Enhanced CTA Section */}
-                <div className="text-center">
+                {/* <div className="text-center">
                     <div className="bg-gradient-to-r from-primary/10 via-blue-500/10 to-purple-500/10 rounded-3xl p-8 max-w-4xl mx-auto backdrop-blur-sm border border-white/20">
                         <h4 className="text-2xl font-bold text-gray-900 mb-4">
                             Can't Find What You're Looking For?
@@ -125,7 +125,7 @@ function Categories() {
                             </button>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

@@ -19,10 +19,10 @@ function Hero() {
   };
 
   return (
-    <Section gradient className="relative overflow-hidden min-h-[650px] flex items-center">
+    <Section className="relative overflow-hidden min-h-[450px] flex items-center bg-[hsl(var(--primary))]">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary to-secondary/80"></div>
-      <div className="absolute inset-0 bg-black/20"></div>
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary to-secondary/80"></div>
+      <div className="absolute inset-0 bg-black/20"></div> */}
 
       {/* Floating Background Blurs */}
       <div className="absolute top-16 left-16 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse"></div>
@@ -37,16 +37,21 @@ function Hero() {
               Local Business
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          {/* <p className="text-xl md:text-2xl text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Discover amazing restaurants, hotels, healthcare services, and more in your city. Connect with trusted local businesses instantly.
-          </p>
+          </p> */}
 
           {/* Trust Indicators */}
-          <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-200">
+          {/* <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-200">
             <div className="flex items-center gap-2"><FaCheckCircle className="text-green-400"/>50,000+ Verified Businesses</div>
             <div className="flex items-center gap-2"><FaStar className="text-yellow-400"/>1M+ Reviews</div>
             <div className="flex items-center gap-2"><FaUsers className="text-blue-400"/>2M+ Happy Users</div>
-          </div>
+          </div> */}
+          
+          {/* Test bg-primary */}
+          {/* <div className="bg-primary text-white p-4 rounded-lg mt-4 mx-auto max-w-xs">
+            Test: bg-primary working
+          </div> */}
         </div>
 
         {/* Search Form */}
@@ -65,7 +70,6 @@ function Hero() {
               </div>
 
               <div className="relative group">
-                <FaMapMarkerAlt className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors"/>
                 <Input
                   type="text"
                   value={location}
@@ -73,13 +77,13 @@ function Hero() {
                   placeholder="Enter location or use current"
                   className="pl-12 py-4 text-lg border-2 border-gray-200 focus:border-primary rounded-xl"
                 />
-                <button type="button" className="absolute right-3 top-1/2 transform -translate-y-1/2 text-primary hover:text-primary/80" title="Use current location">
+                <button type="button" className="absolute left-4 top-1/2 transform -translate-y-1/2 text-primary hover:text-primary/80" title="Use current location">
                   <FaCrosshairs />
                 </button>
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4">
+            {/* <div className="flex flex-col sm:flex-row items-center gap-4">
               <Button
                 type="submit"
                 size="lg"
@@ -102,12 +106,12 @@ function Hero() {
                   </button>
                 ))}
               </div>
-            </div>
+            </div> */}
           </form>
         </div>
 
         {/* Quick Actions */}
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
+        {/* <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
           {[
             { icon: FaUtensils, label: 'Restaurants', color: 'bg-red-500' },
             { icon: FaBed, label: 'Hotels', color: 'bg-blue-500' },
@@ -124,7 +128,7 @@ function Hero() {
               </button>
             )
           })}
-        </div>
+        </div> */}
       </Container>
     </Section>
   )

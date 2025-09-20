@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '@/components/ui/button'
 
 const businessesList = [
   {
@@ -103,9 +104,9 @@ function FeaturedBusinesses() {
                 </div>
 
                 <div className="text-center mt-8">
-                    <button className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-8 rounded-lg transition duration-200">
+                    <Button>
                         View More Businesses
-                    </button>
+                    </Button>
                 </div>
             </div>
         </section>
