@@ -1,11 +1,12 @@
 import React from 'react'
+import { Section, Container } from './ui/Container'
 
 function Heoro() {
   return (
     <>
     {/* Search Section Component */}
-    <section className="bg-gradient-to-r from-primary to-primary-dark py-12">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <Section gradient>
+      <Container>
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-white mb-4">Find Local Businesses Near You</h2>
           <p className="text-white/90 text-lg">Discover restaurants, hotels, healthcare, and more in your city</p>
@@ -47,8 +48,8 @@ function Heoro() {
             </button>
           </form>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
     </>
 
   )
